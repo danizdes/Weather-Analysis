@@ -15,3 +15,8 @@ cutoff year is 2019 but this is honestly the best that i found.
 I'll start of with 2019 (the latest year in the dataset).
 I'll create a file called `2019.ipynb` where i'll look at that 
 years data, and then maybe expand to other years
+
+* *3:21 PM* Okay so i imported the csv file successfully and it 
+works great! the python version and installing pandas was giving 
+me such a big headache it was so fricking annoying, thankfully i 
+managed to figure out a solution by downgrading the python version
