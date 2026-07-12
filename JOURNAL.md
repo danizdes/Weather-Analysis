@@ -20,3 +20,12 @@ years data, and then maybe expand to other years
 works great! the python version and installing pandas was giving 
 me such a big headache it was so fricking annoying, thankfully i 
 managed to figure out a solution by downgrading the python version
+
+* *4:46* Filtered out the 2019 years only, added max and minimum wind temperature / speeds respectfully. Basic stuff works perfectly. But now to actually get this up and running;I need
+to create a streamlit app `app.py`
+
+# July 12th
+
+* *5:39 AM* Okay so I created a streamlit app at `app.py`. 
+Imported the csv file, filtered the data to only get 2019 at the 
+moment. Created a usable navigation with a Home button. 
