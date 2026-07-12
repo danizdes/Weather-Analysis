@@ -39,4 +39,6 @@ organize things cleanly. Here is what I'll do:
 
 In addition in the streamlit directory i can include multiple pages in a sub-directory.
 
-* *6:08* Alright so I've written all the introductory stuff for the streamlit root app
+* *6:08 AM* Alright so I've written all the introductory stuff for the streamlit root app
+
+* *10:19 AM* Added a "Data at a glance" showing Hottest Temperatures & Windiest speeds with their date
