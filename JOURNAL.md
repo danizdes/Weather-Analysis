@@ -29,3 +29,12 @@ to create a streamlit app `app.py`
 * *5:39 AM* Okay so I created a streamlit app at `app.py`. 
 Imported the csv file, filtered the data to only get 2019 at the 
 moment. Created a usable navigation with a Home button. 
+
+* *5:48* I've come to the realization that maybe i should 
+organize things cleanly. Here is what I'll do:
+
+1. Create a streamlit directory (This is gonna hold only the streamlit application stuff, not the pandas data manipulation)
+2. Create a notebook folder (This is where we will actually do the data manipulation)
+3. Include the dataset in a "dataset" folder
+
+In addition in the streamlit directory i can include multiple pages in a sub-directory.
