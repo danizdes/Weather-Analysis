@@ -38,3 +38,5 @@ organize things cleanly. Here is what I'll do:
 3. Include the dataset in a "dataset" folder
 
 In addition in the streamlit directory i can include multiple pages in a sub-directory.
+
+* *6:08* Alright so I've written all the introductory stuff for the streamlit root app
