@@ -45,7 +45,6 @@ with col1:
         st.metric(label="Hottest Registered Day", value=f"{hottest_temp}°C", delta=f"Recorded on {hottest_date}", delta_color="off")
 # Col 2 = Windiest Day & Speed
 with col2:
-        # Displays wind speed as the main number, and the date cleanly beneath it
         st.metric(label="Windiest Registered Day", value=f"{windiest_speed} km/h", delta=f"Recorded on a {windiest_date}", delta_color="off")
 
 st.write("Presented above is the Hottest Temperature and Speeds along with their respective dates. This maximum is for the year **2019** ")

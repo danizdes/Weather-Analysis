@@ -42,3 +42,11 @@ In addition in the streamlit directory i can include multiple pages in a sub-dir
 * *6:08 AM* Alright so I've written all the introductory stuff for the streamlit root app
 
 * *10:19 AM* Added a "Data at a glance" showing Hottest Temperatures & Windiest speeds with their date
+
+Okay i have an idea, I need to create another page, in this page 
+I can use a column charts to show how every year the average 
+temperature changes.
+
+* *8:16 PM* Created `yearly_temperature.ipynb` which creates a 
+dataset(`temperature_yearly_summary.csv`) with the mean
+temperature of all the mean temperatures of each year
