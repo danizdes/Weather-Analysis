@@ -64,3 +64,10 @@ file not a png file.
 So instead of plotting the graph using streamlit, I used the
 jupyter notebook and made the graph and saved it as a PNG, and 
 I'll display the PNG in streamlit. I hope this works
+
+*Update* I wanna kms. The erorr was never with the plot. It was 
+with importing multiple datasets.. Did all that for nothing. Oh 
+well it looks cleaner in my opinion
+
+* *3:03 PM* Okay I've finally completed the regression plot. I created the file `Yearly Temperatures.py`. 
+I included the image with some information 
