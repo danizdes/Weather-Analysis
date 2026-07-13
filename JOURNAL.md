@@ -50,3 +50,17 @@ temperature changes.
 * *8:16 PM* Created `yearly_temperature.ipynb` which creates a 
 dataset(`temperature_yearly_summary.csv`) with the mean
 temperature of all the mean temperatures of each year
+
+# July 13th
+
+* *9:35 AM* Okay so I honestly forgot to Journal the couple of 
+commits before, so I'll explain them now.
+
+Firstly, I tried creating a plot firectly in the streamlit app. 
+The app kept crashing no matter what I did, in the way i figured 
+out that the meme image in the introduction is actually a jpg
+file not a png file. 
+
+So instead of plotting the graph using streamlit, I used the
+jupyter notebook and made the graph and saved it as a PNG, and 
+I'll display the PNG in streamlit. I hope this works
