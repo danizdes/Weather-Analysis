@@ -15,7 +15,7 @@ is just too funny not to miss.
          """)
 
 # Weather Meme
-st.image("media/weather_meme.png")
+st.image("media/weather_meme.jpg")
 
 # Caption for the meme
 st.caption("Who doesn't love the weather lol")
