@@ -9,9 +9,10 @@ st.write("""
          # Yearly Temperature Analysis
 
 This page aims to understand the yearly temperature trends. 
-The way this is done is by taking the base dataset and then the mean of the total mean temperatures for each year were caculated.
-
 ## Regression Plot
+         
+The way this plot is calculated is by taking the base dataset and then the mean of the total mean temperatures for each year
+
 """
 )
 
