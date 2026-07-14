@@ -96,3 +96,12 @@ DONE!
 DONE!
 
 * *2:55 PM* Okayy, added the graph to streamlit
+
+Okay now i'm just really fricking bored from all this, I want to do something 
+different. How about... idk how hard this will be but make a sort of predictive model
+or smth that predicts stuff????? Lemme research a lil n see what i find 
+
+Okay so it's not thaaat hard, I'll create another page for this: `predicting temperature`.
+
+I am so sleepy rn omds, anywho I DID IT! that look alot of research online but I 
+finally managed to make a model and save it locally! 
