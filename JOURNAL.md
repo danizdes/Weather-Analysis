@@ -94,3 +94,5 @@ DONE!
 * *2:15 PM* Up next, i want to compare Rainfall vs Wind Speed. This would follow similar procedures as the Rainfall vs Temperature.
 
 DONE!
+
+* *2:55 PM* Okayy, added the graph to streamlit
