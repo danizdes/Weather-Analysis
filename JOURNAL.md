@@ -71,3 +71,7 @@ well it looks cleaner in my opinion
 
 * *3:03 PM* Okay I've finally completed the regression plot. I created the file `Yearly Temperatures.py`. 
 I included the image with some information 
+
+* Okay time for another graph, This time I'm thinking of creating a Daily Temperature Range 
+Area chart. For this i would need to get the minimum and maximum, so i'll add them to the
+dataset 
