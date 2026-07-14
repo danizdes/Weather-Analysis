@@ -90,3 +90,7 @@ maximum temperatures
 I'll document this in the streamlit app
 
 DONE!
+
+* *2:15 PM* Up next, i want to compare Rainfall vs Wind Speed. This would follow similar procedures as the Rainfall vs Temperature.
+
+DONE!
