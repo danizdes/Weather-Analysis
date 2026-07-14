@@ -76,5 +76,13 @@ I included the image with some information
 Area chart. For this i would need to get the minimum and maximum, so i'll add them to the
 dataset 
 
+# July 14th
+
 * *11:19 AM* Alright so I've added the graph to the streamlit page, I've also added explanations to the graph
 interpreting the results.
+
+* *12:43 PM* Okay so time for another sub-section, this time I want to compare rainfall
+and temperature. Specifically the hypothesis that heave rainfall correlates with lower
+maximum temperatures
+
+* *1:24 PM* Created the graph!s
