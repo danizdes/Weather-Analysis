@@ -85,4 +85,8 @@ interpreting the results.
 and temperature. Specifically the hypothesis that heave rainfall correlates with lower
 maximum temperatures
 
-* *1:24 PM* Created the graph!s
+* *1:24 PM* Created the graphs!
+
+I'll document this in the streamlit app
+
+DONE!
