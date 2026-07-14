@@ -75,3 +75,6 @@ I included the image with some information
 * Okay time for another graph, This time I'm thinking of creating a Daily Temperature Range 
 Area chart. For this i would need to get the minimum and maximum, so i'll add them to the
 dataset 
+
+* *11:19 AM* Alright so I've added the graph to the streamlit page, I've also added explanations to the graph
+interpreting the results.
