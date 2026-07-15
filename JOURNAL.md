@@ -117,3 +117,6 @@ of the weather, does that not sound like the coolest thing ever?
 Finally done! The user can now choose the features and the model makes a prediction
 
 * *3:33 PM* Okay so I've completed another page called "prediction" showcasing how the model actually works. I loved making this page cause i actually explained stuff. 
+
+I honestly want to do this to the other pages too, instead of some 1-2 sentences,
+actually explain the stuff.
