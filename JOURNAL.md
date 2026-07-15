@@ -126,3 +126,11 @@ I changed up the "Predicted Temperatures" page to make it more cleaner
 Cleaned up Rainfall vs Wind Speed.
 
 Cleaned up Rainfall vs Temperature.
+
+Okay now finally I think I def need to re order the pages:
+
+1. Yearly Temperatures
+2. Rainfall vs Temperature
+3. Rainfall vs Wind Speed
+4. Prediction Introduction
+5. Prediction Temperature
