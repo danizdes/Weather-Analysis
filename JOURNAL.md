@@ -120,3 +120,5 @@ Finally done! The user can now choose the features and the model makes a predict
 
 I honestly want to do this to the other pages too, instead of some 1-2 sentences,
 actually explain the stuff.
+
+I changed up the "Predicted Temperatures" page to make it more cleaner
