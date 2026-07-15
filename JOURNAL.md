@@ -140,3 +140,5 @@ using plotly. So I looked up how to do that and created one for the
 rainfall vs temperature.
 
 Did the same for Yearly temperatures.
+
+Same for Rainfall vs Wind Speed
