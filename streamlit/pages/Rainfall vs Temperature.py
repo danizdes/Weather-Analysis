@@ -5,9 +5,14 @@ import streamlit as st
 st.write("""
 # Temperature vs Rainfall
          
+Comparing Temperature and Rainfall!
+         
+## Introductions
 It is commonly believed that on rainy days, the temperature naturally is lower. While this looks like common sense,
 I wanted to test this hypothesis. So I took the Daily Rainfall and the Maximum Temperature and see if there
-any correlation
+any correlation. I made a box plot using matplot lib and seaborn.
+        
+## Graph
          """)
 
 # Show graph

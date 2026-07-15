@@ -124,3 +124,5 @@ actually explain the stuff.
 I changed up the "Predicted Temperatures" page to make it more cleaner
 
 Cleaned up Rainfall vs Wind Speed.
+
+Cleaned up Rainfall vs Temperature.
