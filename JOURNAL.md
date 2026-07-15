@@ -105,3 +105,13 @@ Okay so it's not thaaat hard, I'll create another page for this: `predicting tem
 
 I am so sleepy rn omds, anywho I DID IT! that look alot of research online but I 
 finally managed to make a model and save it locally! 
+
+# July 15th 
+
+* *9:29 AM* okie soo, wow the 17th deadline is getting pretty near huh. 
+
+Anywho now that i have the mode, I have an idea, what if we make a page where
+the user can like select all the features and based off of that it gives a prediction
+of the weather, does that not sound like the coolest thing ever?
+
+Finally done! The user can now choose the features and the model makes a prediction
