@@ -134,3 +134,7 @@ Okay now finally I think I def need to re order the pages:
 3. Rainfall vs Wind Speed
 4. Prediction Introduction
 5. Prediction Temperature
+
+Okay so one more step to making this much better is to use **interactive** graphs
+using plotly. So I looked up how to do that and created one for the
+rainfall vs temperature.
