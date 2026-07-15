@@ -122,3 +122,5 @@ I honestly want to do this to the other pages too, instead of some 1-2 sentences
 actually explain the stuff.
 
 I changed up the "Predicted Temperatures" page to make it more cleaner
+
+Cleaned up Rainfall vs Wind Speed.
