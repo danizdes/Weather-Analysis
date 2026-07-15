@@ -115,3 +115,5 @@ the user can like select all the features and based off of that it gives a predi
 of the weather, does that not sound like the coolest thing ever?
 
 Finally done! The user can now choose the features and the model makes a prediction
+
+* *3:33 PM* Okay so I've completed another page called "prediction" showcasing how the model actually works. I loved making this page cause i actually explained stuff. 
