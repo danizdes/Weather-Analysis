@@ -4,6 +4,9 @@ import streamlit as st
 # Import Pandas
 import pandas as pd
 
+# Import plotly for them interactive plots
+import plotly.express as px
+
 # Main intro
 st.write("""
          # Yearly Temperature Analysis
@@ -13,11 +16,29 @@ This page aims to understand the yearly temperature trends.
          
 The way this plot is calculated is by taking the base dataset and then the mean of the total mean temperatures for each year
 
-"""
+""")
+
+# Read dataset
+df = pd.read_csv("dataset/temperature_yearly_summary.csv")
+
+# Setting up the figure
+fig = px.scatter(
+    df,
+    x="Year",
+    y="Mean Mean Temperature (°C)",
+    trendline="ols",
+    title="Temperature Trajectory(1983-2019)",
+    labels={
+        "Mean Mean Temperature (°C)": "Mean Temperature (°C)"
+    },
+    template="plotly_white",
+    trendline_color_override="#ca5504"
 )
 
-# Show regression plot
-st.image("media/regression_plot_summary.png", caption="Temperature Trajectory (1983-2019)", use_container_width=True)
+# Show the plot
+fig.update_traces(marker=dict(color="#ca5507", size=8))
+fig.update_layout(height=500)
+st.plotly_chart(fig, use_container_width=True)
 
 # Information based on the plot
 st.write("""
@@ -33,8 +54,28 @@ st.write("""
 Let's include the maximum and minimun data values and create an Area Chart
          """)
 
-# Show graph
-st.image("media/yearly_temp_range_chart.png", caption="Yearly Temperature Envelope (1983-2019)", use_container_width=True)
+# Second figure details
+fig2 = px.area(
+    df,
+    x="Year",
+    y=[
+        "Mean Maximum Temperature (°C)",
+        "Mean Mean Temperature (°C)",
+        "Mean Minimum Temperature (°C)",
+    ],
+    title="Yearly Temperature Area chart",
+    labels={"value": "Temperature (°C)", "variable": "Metric"},
+    template="plotly_white",
+    color_discrete_map={
+        "Mean Mean Temperature (°C)": "#293c50",
+        "Mean Maximum Temperatures (°C)": "#b43729",
+        "Mean Mean Temperature (°C)": "#4278ae", 
+    }
+)
+
+# Show plot
+fig2.update_layout(height=500)
+st.plotly_chart(fig2, use_container_width=True)
 
 # Continuing
 st.write("""

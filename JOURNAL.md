@@ -138,3 +138,5 @@ Okay now finally I think I def need to re order the pages:
 Okay so one more step to making this much better is to use **interactive** graphs
 using plotly. So I looked up how to do that and created one for the
 rainfall vs temperature.
+
+Did the same for Yearly temperatures.
