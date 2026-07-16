@@ -5,6 +5,8 @@ Analyzing Singapores Weather!
 
 ![Yearly Temperature Area Chart](media/yearly_temp_range_chart.png)
 
+![Rainfall vs Temp](media/rainfall_vs_temp.png)
+
 ---
 
 # About
