@@ -163,3 +163,5 @@ txt file. Let me do that now and try it.
 Okay this is taking soo long to load, I think I should remove some of the requirements.
 
 IT WORKS!!!!!!
+
+Finally did the README. I'm ready to submit!
