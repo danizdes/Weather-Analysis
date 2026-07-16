@@ -1,7 +1,9 @@
 # Weather Analysis
 Analyzing Singapores Weather!
 
-![Yearly Temperature Area Chart](yearly_temp_range_chart.png)
+![Prediction Graph](media/prediction.png)
+
+![Yearly Temperature Area Chart](media/yearly_temp_range_chart.png)
 
 ---
 
