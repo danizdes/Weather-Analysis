@@ -22,9 +22,6 @@ a graph using matplotlib and seaborn. The points were plotted and then I created
 the trend of the data
          """)
 
-# display image
-st.image("media/rainfall_vs_wind_speed.png", use_container_width=True)
-
 # Get dataset
 df=pd.read_csv("dataset/weather_clean.csv")
 
