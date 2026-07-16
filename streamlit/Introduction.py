@@ -21,16 +21,16 @@ st.image("media/weather_meme.jpg")
 st.caption("Who doesn't love the weather lol")
 
 # read `2019_extremes.json` file
-with open("dataset/2019_extremes.json", "r") as file:
-    extremes_2019 = json.load(file)
+with open("dataset/extremes.json", "r") as file:
+    extremes = json.load(file)
 
 # Hottest temperature & date
-hottest_temp = extremes_2019["Hottest Day"]["Temperature"]
-hottest_date = extremes_2019["Hottest Day"]["Day"]
+hottest_temp = extremes["Hottest Day"]["Temperature"]
+hottest_date = extremes["Hottest Day"]["Day"]
 
 # Windiest speed & dat
-windiest_speed = extremes_2019["Windiest Day"]["Speed"]
-windiest_date = extremes_2019["Windiest Day"]["Day"]
+windiest_speed = extremes["Windiest Day"]["Speed"]
+windiest_date = extremes["Windiest Day"]["Day"]
 
 # "Data at a glance" section
 st.write("""
@@ -46,5 +46,3 @@ with col1:
 # Col 2 = Windiest Day & Speed
 with col2:
         st.metric(label="Windiest Registered Day", value=f"{windiest_speed} km/h", delta=f"Recorded on a {windiest_date}", delta_color="off")
-
-st.write("Presented above is the Hottest Temperature and Speeds along with their respective dates. This maximum is for the year **2019** ")

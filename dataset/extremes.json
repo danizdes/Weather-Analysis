@@ -1,0 +1,10 @@
+{
+    "Hottest Day": {
+        "Day": "2005-04-29",
+        "Temperature": 35.1
+    },
+    "Windiest Day": {
+        "Day": "2010-11-29",
+        "Speed": 90.7
+    }
+}

@@ -142,3 +142,11 @@ rainfall vs temperature.
 Did the same for Yearly temperatures.
 
 Same for Rainfall vs Wind Speed
+
+# July 16th 
+
+Okay now finally, All i have left to do is edit out the `Introduction.py` file. I'm gonna make it alot better
+now
+
+So I've changed the "Data at a glance" section to include extremes from every year cause only 2019 doesn't
+really make any sense tbh
