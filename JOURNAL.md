@@ -152,3 +152,12 @@ So I've changed the "Data at a glance" section to include extremes from every ye
 really make any sense tbh
 
 Finally fixed up Introduction, made it alot better and cleaner
+
+I think after all this time, I can finally, finally do the readme and ship the project 🥹 BUUT before that
+I need to upload the project on streamlit cloud. I'll do it now.
+
+Okay so setting it up was actually pretty simple. However I do see some errors. The issue is plotly is not
+installed as a package so all the pages where I need it jst fails. So the solution is to create a requirements.
+txt file. Let me do that now and try it. 
+
+Okay this is taking soo long to load, I think I should remove some of the requirements.
