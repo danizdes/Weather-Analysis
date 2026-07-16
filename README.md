@@ -1,10 +1,9 @@
 # Weather Analysis
 Analyzing Singapores Weather!
 
-![Prediction Graph](media/prediction.png)
-
-
 ![Yearly Temperature Area Chart](yearly_temp_range_chart.png)
+
+---
 
 # About
 This project analyzes [Singapores Weather Data](https://github.com/chuachinhon/weather_singapore_cch). Looking
