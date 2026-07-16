@@ -4,6 +4,9 @@ import streamlit as st
 # Import JSON
 import json
 
+# Import panda for data analysis
+import pandas as pd
+
 # Introductory Markdown
 st.write("""
 # Singapores Weather Analysis!
@@ -35,7 +38,15 @@ windiest_date = extremes["Windiest Day"]["Day"]
 # "Data at a glance" section
 st.write("""
 ## Data at a glance
+         
+To get Singapores weather data, I used the `weather_clean.csv` file in [this github repo](https://github.com/chuachinhon/weather_singapore_cch)
 """)
+
+# import csv file
+df = pd.read_csv("dataset/weather_clean.csv")
+
+# Show dataset
+st.dataframe(df)
 
 # Created 2 columns
 col1, col2 = st.columns(2)
@@ -46,3 +57,40 @@ with col1:
 # Col 2 = Windiest Day & Speed
 with col2:
         st.metric(label="Windiest Registered Day", value=f"{windiest_speed} km/h", delta=f"Recorded on a {windiest_date}", delta_color="off")
+
+st.caption("Hottest and Windiest in the dataset")
+
+st.write("""
+## Table Of contents
+
+### Yearly Temperature
+This looks at how the average temperature each year changes
+""")
+
+st.image("media/yearly_temp_range_chart.png")
+
+st.write("""
+### Rainfall vs Temperature
+Testing to see if more rainfall leads to lower temperatures
+         """)
+
+st.image("media/rainfall_vs_temp.png")
+
+st.write("""
+### Rainfall vs Wind Speed
+Testing to see if more rainfall leads to higher winds
+         """)
+
+st.image("media/rainfall_vs_wind_speed.png")
+
+st.write("""
+# Prediction
+Created a model to predict temperatures
+""")
+
+st.image("media/prediction.png")
+
+st.write("""
+# Predicting Temperatures
+You can input your ideal day and get the models prediction of the weather!
+         """)

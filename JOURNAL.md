@@ -150,3 +150,5 @@ now
 
 So I've changed the "Data at a glance" section to include extremes from every year cause only 2019 doesn't
 really make any sense tbh
+
+Finally fixed up Introduction, made it alot better and cleaner
