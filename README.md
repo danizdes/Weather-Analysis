@@ -46,8 +46,9 @@ The project is hosted on Streamlit Cloud. Click [Here](https://singapore-weather
 ## Setting it up
 
 1. Clone the repository
-```bash 
-git clone https://github.com/danizdes/exoplanet-analysis```
+```bash
+git clone https://github.com/danizdes/exoplanet-analysis
+```
 
 2. When your in the repository, create a virtual environment
 ```bash
