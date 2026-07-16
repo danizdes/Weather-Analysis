@@ -52,24 +52,28 @@ git clone https://github.com/danizdes/exoplanet-analysis
 
 2. When your in the repository, create a virtual environment
 ```bash
-python -m venv env```
+python -m venv env
+```
 
 3. Activate it
 
 On Linux/Macos:
 
 ```bash
-source env/bin/activate```
+source env/bin/activate
+```
 
 On windows:
 
 ```bash
-env\Scripts\activate```
+env\Scripts\activate
+```
 
 Once you've installed it up install the requirements file
 
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ## Running the code
 
@@ -82,7 +86,8 @@ to keep the format of the file.
 Now in the terminal simply run:
 
 ```bash
-streamlit run streamlit/Introduction.py```
+streamlit run streamlit/Introduction.py
+```
 
 **Ensure you run this from the base directory!**
 
